@@ -1,13 +1,11 @@
-import './App.css';
+import React from "react";
+import "./App.scss";
+import Main from "./containers/Main";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Sebastian Latempa</h1>
-        <p>Welcome to my personal portfolio</p>
-        <p>More content coming soon!</p>
-      </header>
+    <div>
+      <Main />
     </div>
   );
 }
