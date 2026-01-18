@@ -67,7 +67,7 @@ softwareSkills: [
   },
   {
     skillName: "Terraform",
-    fontAwesomeClassname: "fas fa-cogs" // Generic for IaC/tools; no official Terraform icon in FA
+    fontAwesomeClassname: "fas fa-cogs"
   },
   {
     skillName: "Docker",
@@ -91,7 +91,7 @@ softwareSkills: [
   },
   {
     skillName: "Bash",
-    fontAwesomeClassname: "fas fa-terminal" // For shell scripting
+    fontAwesomeClassname: "fas fa-terminal"
   },
   {
     skillName: "SQL Database",
@@ -99,11 +99,11 @@ softwareSkills: [
   },
   {
     skillName: "Splunk",
-    fontAwesomeClassname: "fab fa-searchengin" // Generic for monitoring; no official Splunk in FA
+    fontAwesomeClassname: "fab fa-searchengin"
   },
   {
     skillName: "Datadog",
-    fontAwesomeClassname: "fas fa-chart-line" // Generic for monitoring
+    fontAwesomeClassname: "fas fa-chart-line"
   },
   {
     skillName: "Spring Framework",
@@ -111,39 +111,39 @@ softwareSkills: [
   },
   {
     skillName: "Vert.x Framework",
-    fontAwesomeClassname: "fas fa-server" // Generic server icon, as no official Vert.x in FA
+    fontAwesomeClassname: "fas fa-server"
   },
   {
     skillName: "DynamoDB",
-    fontAwesomeClassname: "fas fa-database" // Generic database icon, or use "fab fa-aws" if preferred
+    fontAwesomeClassname: "fas fa-database"
   },
   {
     skillName: "Bedrock",
-    fontAwesomeClassname: "fas fa-robot" // Generic AI/robot icon for AWS Bedrock
+    fontAwesomeClassname: "fas fa-robot"
   },
   {
     skillName: "YAML/JSON",
-    fontAwesomeClassname: "fas fa-file-code" // Generic code/file icon for config languages
+    fontAwesomeClassname: "fas fa-file-code"
   },
   {
     skillName: "Containerization",
-    fontAwesomeClassname: "fas fa-boxes" // Generic boxes icon for containerization (e.g., ECS); no official in FA
+    fontAwesomeClassname: "fas fa-boxes"
   },
   {
     skillName: "CUCM",
-    fontAwesomeClassname: "fas fa-phone" // Telephone icon for Cisco Unified Communications Manager (CUCM)
+    fontAwesomeClassname: "fas fa-phone"
   },
   {
     skillName: "Windows Server",
-    fontAwesomeClassname: "fab fa-windows" // Windows logo for Microsoft Windows Server
+    fontAwesomeClassname: "fab fa-windows"
   },
   {
     skillName: "Active Directory",
-    fontAwesomeClassname: "fas fa-users-cog" // User administration icon for Active Directory
+    fontAwesomeClassname: "fas fa-users-cog"
   },
   {
     skillName: "Azure",
-    fontAwesomeClassname: "fab fa-microsoft" // Microsoft icon for Azure (as it's Microsoft Azure)
+    fontAwesomeClassname: "fab fa-microsoft"
   }
 ],
 display: true
