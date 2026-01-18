@@ -143,32 +143,7 @@ softwareSkills: [
 display: true // Set false to hide this section, defaults to true
 };
 
-// Education Section
 
-const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
-  schools: [
-    {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
-  ]
-};
 
 // Your top 3 proficient stacks/tech experience
 
@@ -213,29 +188,49 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Lead Software Engineer",
+      company: "State Farm",
+      companylogo: require("./assets/images/state-farm-logo.jpg"),
+      date: "2016 – Present",
+      desc: "Architected and maintained enterprise-wide event-driven API platform supporting 45+ business units, processing 4.8B+ customer interactions yearly.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Integrated proprietary Enterprise Identifier (EIID) for real-time journey visibility using AWS Lambda, ECS, S3, DynamoDB, Athena, API Gateway, IAM, Secrets Manager, and CloudWatch.",
+        "Automated infrastructure provisioning with Terraform, YAML, and SCALR for state management.",
+        "Enabled multi-AWS service deployments that reduced manual errors by 80% and accelerated onboarding for new features.",
+        "Pioneered patent-pending CI/CD pipeline paradigm revolutionizing testing at State Farm.",
+        "Achieved 100% code coverage across unit, integration, mutation, chaos, and load tests with custom scripts for Jacoco, PIT, Chaos Monkey, and Snyk.",
+        "Enhanced system resilience, reduced deployment risks, and set new enterprise standards.",
+        "Designed and deployed GUI using CloudFormation for 4.8B+ interaction platform, visualizing per-customer communications to avert over-communication.",
+        "Harnessed generative AI (AWS Bedrock/SageMaker) for interaction summaries, delivering actionable insights that optimized analyst-driven engagement strategies.",
+        "Led end-to-end development of customer data aggregation API consolidating multiple enterprise sources.",
+        "Enabled State Farm’s first personalized welcome email program for new policyholders, improving onboarding retention through tailored communications."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "System Administrator",
+      company: "Origami Owl",
+      companylogo: require("./assets/images/origamiOwlLogo.png"),  // Replace with actual logo path if available
+      date: "2014 – 2016",
+      desc: "Automated departmental workflows using PowerShell scripts, WDS, and MDT to create comprehensive Windows images with pre-installed software and default profiles.",
+      descBullets: [
+        "Reduced onboarding time by 70% and minimized waste while boosting overall efficiency.",
+        "Conducted wireless scans with TamoGraph to optimize enterprise access points, enhancing range and achieving 99.9% telephony uptime.",
+        "Managed CUCM, CCE, and UCCE systems as a full administrator, configuring softphones, skill groups, mobility extensions, call recordings, and ICM scripting for dynamic prompts and flows.",
+        "Troubleshot telephony issues.",
+        "Administered Active Directory to create user accounts, security groups, and department-specific GPOs for precise permissions.",
+        "Oversaw Barracuda and Nagios backup solutions, and generated SQL reports to support operational reliability."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Desktop Support",
+      company: "Stream Global Services",
+      companylogo: require("./assets/images/streamGlobalLogo.jpg"),  // Replace with actual logo path if available
+      date: "2009 – 2014",
+      desc: "Provided on-site assistance for over 1,400 workstations across two locations–the only team member entrusted with dual-site responsibility.",
+      descBullets: [
+        "Consulted on client applications, implemented software/hardware updates to enhance functionality, and installed, configured, and maintained servers to meet customer needs.",
+        "Developed and deployed automation scripts that slashed ticket volume by 60% and boosted efficiency."
+      ]
     }
   ]
 };
@@ -421,7 +416,26 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+
+// Education Section
+
+const educationInfo = {
+  display: false, // Set false to hide this section, defaults to true
+  schools: [
+    {
+      schoolName: "Desert Mountain High School",
+      logo: require("./assets/images/harvardLogo.png"),
+      subHeader: "Diploma",
+      duration: "September 2001 - April 2005",
+      desc: "Participated in the research of XXX and published 3 papers.",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
+    }
+  ]
+};
 
 export {
   illustration,
