@@ -1,16 +1,12 @@
-/* Change this file to get your personal Portfolio */
-
-// To change portfolio colors globally go to the  _globalColor.scss file
-
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/splashAnimation";
 
 // Splash Screen
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: true,
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2000
 };
 
 // Summary And Greeting Section
@@ -39,7 +35,7 @@ const socialMediaLinks = {
   gmail: "SebastianLaTempa@gmail.com",
   gitlab: "https://gitlab.com/Sebbyjones",
   stackoverflow: "https://stackoverflow.com/users/10422806/Sebastian-LaTempa",
-  display: true // Set true to display this section, defaults to false
+  display: true
 };
 
 // Skills Section
@@ -138,42 +134,42 @@ softwareSkills: [
     fontAwesomeClassname: "fas fa-boxes" // Generic boxes icon for containerization (e.g., ECS); no official in FA
   }
 ],
-display: true // Set false to hide this section, defaults to true
+display: true
 };
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
       Stack: "Cloud Infrastructure & AWS (EC2, S3, Lambda, ECS, DynamoDB, API Gateway, Athena, SageMaker, Bedrock, etc.)",
-      progressPercentage: "95%" // High proficiency from architecting enterprise platforms at State Farm
+      progressPercentage: "95%"
     },
     {
       Stack: "Infrastructure as Code (Terraform, CloudFormation, SCALR, TFE)",
-      progressPercentage: "90%" // Core tool for automation and provisioning in your roles
+      progressPercentage: "90%"
     },
     {
       Stack: "Automation & CI/CD (Git, GitHub, GitLab, Docker, Containerization, Jenkins)",
-      progressPercentage: "93%" // Demonstrated in patent-pending pipelines and error reduction
+      progressPercentage: "93%"
     },
     {
       Stack: "Programming Languages & Frameworks (Python, Java, JavaScript, Bash, C#, Shell, YAML/JSON, Vert.x, Spring Framework)",
-      progressPercentage: "91%" // Used across scripting, APIs, and backend development
+      progressPercentage: "91%"
     },
     {
       Stack: "Security & Networking (IAM, KMS, WAF, TCP/IP, DNS, Zero Trust, SSL/TLS, VPN)",
-      progressPercentage: "88%" // Integrated in secure platforms and telephony management
+      progressPercentage: "88%"
     },
     {
       Stack: "Monitoring & Observability (Splunk, Datadog, Dynatrace, CloudWatch)",
-      progressPercentage: "95%" // Applied in resilience testing and operational reliability
+      progressPercentage: "95%"
     },
     {
       Stack: "Methodologies (Agile, Scrum, SRE, TDD, CI/CD)",
-      progressPercentage: "93%" // Proven leadership in cross-functional teams and standards-setting
+      progressPercentage: "93%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
 
 // Work experience section
@@ -241,7 +237,6 @@ const openSource = {
 };
 
 // Some big projects you have worked on
-
 const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
@@ -255,7 +250,6 @@ const bigProjects = {
           name: "Visit Website",
           url: "http://saayahealth.com/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
@@ -270,12 +264,10 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Achievement Section
-// Include certificates, talks etc
-
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
@@ -331,11 +323,10 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Blogs Section
-
 const blogSection = {
   title: "Blogs",
   subtitle:
@@ -374,7 +365,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false
 };
 
 // Podcast Section
@@ -387,7 +378,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Sebastian-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false
 };
 
 // Resume Section
@@ -395,7 +386,7 @@ const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
 
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 const contactInfo = {
@@ -410,7 +401,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+  display: false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
