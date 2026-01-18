@@ -391,7 +391,7 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
     "Contact information for any colaborations and work opportunities.",
   number: "480-382-3062",
