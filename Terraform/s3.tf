@@ -2,12 +2,12 @@ provider "aws" {
   region = "us-east-1"
 }
 
-resource "aws_s3_bucket" "portfolio_site" {
-  bucket = "sebastian-latempa-personal-site"
+resource "aws_s3_bucket" "personal_site" {
+  bucket = "personal-site"
 }
 
-resource "aws_s3_bucket_website_configuration" "portfolio_site_config" {
-  bucket = aws_s3_bucket.portfolio_site.id
+resource "aws_s3_bucket_website_configuration" "personal_site_config" {
+  bucket = aws_s3_bucket.personal_site.id
 
   index_document {
     suffix = "index.html"
