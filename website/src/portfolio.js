@@ -134,6 +134,10 @@ softwareSkills: [
   {
     skillName: "YAML/JSON",
     fontAwesomeClassname: "fas fa-file-code" // Generic code/file icon for config languages
+  },
+  {
+    skillName: "Containerization",
+    fontAwesomeClassname: "fas fa-boxes" // Generic boxes icon for containerization (e.g., ECS); no official in FA
   }
 ],
 display: true // Set false to hide this section, defaults to true
