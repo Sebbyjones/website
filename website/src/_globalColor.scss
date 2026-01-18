@@ -1,167 +1,78 @@
-// button colors
-$buttonColor: #55198b;
-$buttonHover: #8c43ce;
-$topButtonHover: #000;
-
-// text colors light theme
-$titleColor: #000000;
-$textColor: #000000;
-$subTitle: #868e96;
-$cardSubtitle: #666666;
-$talkCardSubTitle: #7f8287;
-$blogCardTitleColor: #262626;
-
-// text color dark theme
-$textColorDark: #ffffff;
-
-// toggle switch colors
-$toggleCheck: #2196f3;
-$toggleSwitchSliderBG: #ccc;
-
-// githubRepo specific colors
-$githubRepoCardLanguageColorBG: #0000ff;
-$githubRepoCardColor: rgb(88, 96, 105);
-$githubRepoCardRepoCardStatsColor: rgb(106, 115, 125);
-$githubRepoCardRepoNameColor: rgb(36, 41, 46);
-$githubProfileCardLocationTS: #ffebcd;
-$githubProfileCardBorder: #6c63ff;
-
-// light background colors
-$lightBackground1: #fff;
-$lightBackground2: rgb(255, 255, 255);
-$lightBackground3: #f5f2f4;
-$blogCardContainerColor: #586069;
-// dark background colors
-$darkBackground: #171c28;
-
-// light theme box shadows
-$lightBoxShadowDark: rgba(0, 0, 0, 0.2);
-$lightBoxShadow: rgba(0, 0, 0, 0.1);
-$lightBoxShadowDarker: rgba(0, 0, 0, 0.3);
-
-// dark theme box shadows
-$darkBoxShadow: #d9dbdf;
-$darkBoxShadow2: #ffffff;
-
-// linear gradients
-$experienceCardBlurredDivLG: linear-gradient(
-  rgba(0, 0, 0, 0.4),
-  rgba(0, 0, 0, 0.2)
-);
-$experienceCardBannerLG: linear-gradient(
-  rgba(0, 0, 0, 0.7),
-  rgba(0, 0, 0, 0.5)
-);
-
-// borders
-$progressBarBackground: rgb(243, 239, 239);
-$lightBorder1: rgba(211, 211, 211, 0.397);
-$educationCardBorder: #a9a7f9;
-
-// hovers
-$achievementCertificateCardHoverDark: rgba(255, 255, 255, 0.2);
-$blogCardHoverSmallColor: rgba(255, 255, 255, 0.8);
-$headerHoverBG: #f4f4f4;
-$contactDetailHoverTS: #b5b5b5;
-
-// misc backgrounds
-$progressBarSpanBG: #aaa5ff;
-$iconBackground: #333;
-$appHeaderBG: #282c34;
-
-// misc colors
-$skillsColor: #645beb;
-$appLink: #09d3ac;
-
-// social media icons
-$faceBook: #3b5998;
-$linkedin: #0e76a8;
-$github: #333;
-$gitlab: #fca326;
-$google: #ea4335;
-$twitter: #1da1f2;
-$medium: #000;
-$stackoverflow: #f48024;
-$instagram: #c13584;
-$kaggle: #20beff;SCSS/* Change colors in this file to style to your needs on a global level. 
-Certain colors are used for different and multiply types of elements. 
-For greater control over colors visit each components .scss file. */
-
 // button colors (use forest green for primary, brown for hover)
-$buttonColor: #228B22; // Forest Green
-$buttonHover: #8B4513; // Saddle Brown
-$topButtonHover: #556B2F; // Dark Olive Green
+$buttonColor: #228B22;
+$buttonHover: #8B4513;
+$topButtonHover: #556B2F;
 
 // text colors light theme (dark browns for contrast on light backgrounds)
-$titleColor: #4A2A0A; // Dark Brown
-$textColor: #4A2A0A; // Dark Brown
-$subTitle: #8B4513; // Saddle Brown
-$cardSubtitle: #556B2F; // Dark Olive Green
-$talkCardSubTitle: #556B2F; // Dark Olive Green
-$blogCardTitleColor: #4A2A0A; // Dark Brown
+$titleColor: #4A2A0A;
+$textColor: #4A2A0A;
+$subTitle: #8B4513;
+$cardSubtitle: #556B2F;
+$talkCardSubTitle: #556B2F;
+$blogCardTitleColor: #4A2A0A;
 
 // text color dark theme (whites/beiges for contrast on dark backgrounds)
-$textColorDark: #F5F5DC; // Beige
+$textColorDark: #F5F5DC;
 
 // toggle switch colors (green for checked, beige for background)
-$toggleCheck: #228B22; // Forest Green
-$toggleSwitchSliderBG: #D2B48C; // Tan Beige
+$toggleCheck: #228B22;
+$toggleSwitchSliderBG: #D2B48C;
 
 // githubRepo specific colors (earthy tones for stats and names)
-$githubRepoCardLanguageColorBG: #556B2F; // Dark Olive Green
-$githubRepoCardColor: #8B4513; // Saddle Brown
-$githubRepoCardRepoCardStatsColor: #A52A2A; // Brown
-$githubRepoCardRepoNameColor: #4A2A0A; // Dark Brown
-$githubProfileCardLocationTS: #F5F5DC; // Beige
-$githubProfileCardBorder: #228B22; // Forest Green
+$githubRepoCardLanguageColorBG: #556B2F;
+$githubRepoCardColor: #8B4513;
+$githubRepoCardRepoCardStatsColor: #A52A2A;
+$githubRepoCardRepoNameColor: #4A2A0A;
+$githubProfileCardLocationTS: #F5F5DC;
+$githubProfileCardBorder: #228B22;
 
 // light background colors (whites and beiges for clean, natural feel)
-$lightBackground1: #FFFFFF; // White
-$lightBackground2: #F5F5DC; // Beige
-$lightBackground3: #D2B48C; // Tan Beige
-$blogCardContainerColor: #F5F5F5; // Light Grayish White
+$lightBackground1: #FFFFFF;
+$lightBackground2: #F5F5DC;
+$lightBackground3: #D2B48C;
+$blogCardContainerColor: #F5F5F5;
 
 // dark background colors (deep forest greens and browns for depth)
-$darkBackground: #2F4F4F; // Dark Slate Green (forest-inspired)
+$darkBackground: #2F4F4F;
 
 // light theme box shadows (subtle brown/gray shadows for natural depth)
-$lightBoxShadowDark: rgba(139, 69, 19, 0.2); // Saddle Brown shadow
-$lightBoxShadow: rgba(139, 69, 19, 0.1); // Lighter Saddle Brown
-$lightBoxShadowDarker: rgba(139, 69, 19, 0.3); // Darker Saddle Brown
+$lightBoxShadowDark: rgba(139, 69, 19, 0.2);
+$lightBoxShadow: rgba(139, 69, 19, 0.1);
+$lightBoxShadowDarker: rgba(139, 69, 19, 0.3);
 
 // dark theme box shadows (beige/white shadows for contrast)
-$darkBoxShadow: #F5F5DC; // Beige
-$darkBoxShadow2: #FFFFFF; // White
+$darkBoxShadow: #F5F5DC;
+$darkBoxShadow2: #FFFFFF;
 
 // linear gradients (earthy overlays with brown/green tints)
 $experienceCardBlurredDivLG: linear-gradient(
-  rgba(85, 107, 47, 0.4), // Dark Olive Green tint
-  rgba(139, 69, 19, 0.2) // Saddle Brown tint
+  rgba(85, 107, 47, 0.4),
+  rgba(139, 69, 19, 0.2)
 );
 $experienceCardBannerLG: linear-gradient(
-  rgba(34, 139, 34, 0.7), // Forest Green tint
-  rgba(139, 69, 19, 0.5) // Saddle Brown tint
+  rgba(34, 139, 34, 0.7),
+  rgba(139, 69, 19, 0.5)
 );
 
 // borders (beige for light borders, green for progress)
-$progressBarBackground: #D2B48C; // Tan Beige
-$lightBorder1: rgba(210, 180, 140, 0.397); // Tan Beige border
-$educationCardBorder: #556B2F; // Dark Olive Green
+$progressBarBackground: #D2B48C;
+$lightBorder1: rgba(210, 180, 140, 0.397);
+$educationCardBorder: #556B2F;
 
 // hovers (beige/white for light hovers, green for accents)
-$achievementCertificateCardHoverDark: rgba(245, 245, 220, 0.2); // Beige hover
-$blogCardHoverSmallColor: rgba(245, 245, 220, 0.8); // Beige hover
-$headerHoverBG: #F5F5F5; // Light Grayish White
-$contactDetailHoverTS: #D2B48C; // Tan Beige
+$achievementCertificateCardHoverDark: rgba(245, 245, 220, 0.2);
+$blogCardHoverSmallColor: rgba(245, 245, 220, 0.8);
+$headerHoverBG: #F5F5F5;
+$contactDetailHoverTS: #D2B48C;
 
 // misc backgrounds (green for progress, brown for icons/header)
-$progressBarSpanBG: #228B22; // Forest Green
-$iconBackground: #8B4513; // Saddle Brown
-$appHeaderBG: #556B2F; // Dark Olive Green
+$progressBarSpanBG: #228B22;
+$iconBackground: #8B4513;
+$appHeaderBG: #556B2F;
 
 // misc colors (green for skills, beige for links)
-$skillsColor: #228B22; // Forest Green
-$appLink: #D2B48C; // Tan Beige
+$skillsColor: #228B22;
+$appLink: #D2B48C;
 
 // social media icons
 $faceBook: #3b5998;
