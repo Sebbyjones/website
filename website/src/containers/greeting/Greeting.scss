@@ -53,8 +53,19 @@
   line-height: 40px;
 }
 
-.greeting-image-div > img {
-  max-width: 100%;
+// .greeting-image-div > img {
+//   max-width: 100%;
+//   height: auto;
+// }
+
+.greeting-image-div {
+  max-width: 250px;  // Or 200px for even smaller—adjust to taste
+  height: auto;
+  margin: 0 auto 20px;  // Center with some space
+}
+
+.greeting-image-div > * {  // Targets Lottie or img
+  width: 100%;
   height: auto;
 }
 
