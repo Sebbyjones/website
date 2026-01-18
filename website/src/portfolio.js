@@ -70,7 +70,6 @@ const skillsSection = {
       "⚡ Lead cross-functional teams in Agile/SRE methodologies to deliver cost-efficient solutions, slashing expenses by 30% and accelerating feature onboarding"
     )
   ],
-};
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
