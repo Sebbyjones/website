@@ -413,7 +413,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Desert Mountain High School",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/statefarmlogo.png"),
       subHeader: "Diploma",
       duration: "September 2001 - April 2005",
       desc: "Student",
