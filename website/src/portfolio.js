@@ -2,7 +2,6 @@ import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation";
 
 // Splash Screen
-
 const splashScreen = {
   enabled: true,
   animation: splashAnimation,
@@ -10,7 +9,6 @@ const splashScreen = {
 };
 
 // Summary And Greeting Section
-
 const illustration = {
   animated: true // Set to false to use static SVG
 };
@@ -28,7 +26,6 @@ const greeting = {
 };
 
 // Social Media Links
-
 const socialMediaLinks = {
   github: "https://github.com/Sebbyjones",
   linkedin: "https://www.linkedin.com/in/SebastianLaTempa",
@@ -39,7 +36,6 @@ const socialMediaLinks = {
 };
 
 // Skills Section
-
 const skillsSection = {
   title: "What I Do",
   subTitle: "SENIOR DEVOPS ENGINEER ARCHITECTING SCALABLE, SECURE CLOUD INFRASTRUCTURE AND AUTOMATED PIPELINES",
@@ -158,7 +154,7 @@ const techStack = {
     },
     {
       Stack: "Security & Networking (IAM, KMS, WAF, TCP/IP, DNS, Zero Trust, SSL/TLS, VPN)",
-      progressPercentage: "88%"
+      progressPercentage: "89%"
     },
     {
       Stack: "Monitoring & Observability (Splunk, Datadog, Dynatrace, CloudWatch)",
@@ -173,7 +169,6 @@ const techStack = {
 };
 
 // Work experience section
-
 const workExperiences = {
   display: true,
   experience: [
@@ -228,17 +223,15 @@ const workExperiences = {
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
 
-// Some big projects you have worked on
+// Key projects section
 const bigProjects = {
-  title: "Big Projects",
+  title: "Key Projects",
   subtitle: "KEY ENTERPRISE PROJECTS DEMONSTRATING SCALABLE DEVOPS AND AI INTEGRATIONS",
   projects: [
     {
@@ -334,7 +327,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true
+  display: false
 };
 
 // Blogs Section
@@ -365,7 +358,7 @@ const blogSection = {
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "Talks I have had the privilege to give at various conferences and meetups."
   ),
 
   talks: [
@@ -380,12 +373,10 @@ const talkSection = {
 };
 
 // Podcast Section
-
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle: "Where I discuss my IT experience and tech trends",
 
-  // Please Provide with Your Podcast embeded Link
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Sebastian-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
@@ -409,7 +400,6 @@ const contactInfo = {
 };
 
 // Twitter Section
-
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
   display: false
@@ -418,7 +408,6 @@ const twitterDetails = {
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 // Education Section
-
 const educationInfo = {
   display: false, // Set false to hide this section, defaults to true
   schools: [
@@ -427,10 +416,9 @@ const educationInfo = {
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Diploma",
       duration: "September 2001 - April 2005",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "Student",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Graduated with Honors"
       ]
     }
   ]
