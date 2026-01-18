@@ -22,6 +22,4 @@ yarn-error.log*
 
 # Terraform
 .terraform
-*.tfstate
-*.tfstate.*
 *.tfvars
