@@ -128,6 +128,22 @@ softwareSkills: [
   {
     skillName: "Containerization",
     fontAwesomeClassname: "fas fa-boxes" // Generic boxes icon for containerization (e.g., ECS); no official in FA
+  },
+  {
+    skillName: "CUCM",
+    fontAwesomeClassname: "fas fa-phone" // Telephone icon for Cisco Unified Communications Manager (CUCM)
+  },
+  {
+    skillName: "Windows Server",
+    fontAwesomeClassname: "fab fa-windows" // Windows logo for Microsoft Windows Server
+  },
+  {
+    skillName: "Active Directory",
+    fontAwesomeClassname: "fas fa-users-cog" // User administration icon for Active Directory
+  },
+  {
+    skillName: "Azure",
+    fontAwesomeClassname: "fab fa-microsoft" // Microsoft icon for Azure (as it's Microsoft Azure)
   }
 ],
 display: true
