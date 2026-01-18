@@ -117,11 +117,11 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Spring Framework",
-      fontAwesomeClassname: "fa-solid fa-leaf"
+      fontAwesomeClassname: "fas fa-leaf"
     },
     {
       skillName: "Vert.x Framework",
-      fontAwesomeClassname: "fa-sharp fa-solid fa-x"
+      fontAwesomeClassname: "fas fa-x"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -181,7 +181,7 @@ const techStack = {
     },
     {
       Stack: "Monitoring & Observability (Splunk, Datadog, Dynatrace, CloudWatch)",
-      progressPercentage: "85%" // Applied in resilience testing and operational reliability
+      progressPercentage: "95%" // Applied in resilience testing and operational reliability
     },
     {
       Stack: "Methodologies (Agile, Scrum, SRE, TDD, CI/CD)",
