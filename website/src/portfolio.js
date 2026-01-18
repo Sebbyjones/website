@@ -160,8 +160,8 @@ const techStack = {
       progressPercentage: "90%" // Core tool for automation and provisioning in your roles
     },
     {
-      Stack: "Automation & CI/CD (Git, GitHub, GitLab, Docker, Containerization with ECS)",
-      progressPercentage: "90%" // Demonstrated in patent-pending pipelines and error reduction
+      Stack: "Automation & CI/CD (Git, GitHub, GitLab, Docker, Containerization, Jenkins)",
+      progressPercentage: "93%" // Demonstrated in patent-pending pipelines and error reduction
     },
     {
       Stack: "Programming Languages & Frameworks (Python, Java, JavaScript, Bash, C#, Shell, YAML/JSON, Vert.x, Spring Framework)",
