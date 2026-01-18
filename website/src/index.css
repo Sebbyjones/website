@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: normal;
   src: local("stencilla"),
-    url("./assets/fonts/stencilla.ttf") format("woff");
+    url("./assets/fonts/stencilla.ttf") format("truetype");
   font-display: swap;
 }
 @font-face {
