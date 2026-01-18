@@ -37,11 +37,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/SebastianLaTempa",
   gmail: "SebastianLaTempa@gmail.com",
   gitlab: "https://gitlab.com/Sebbyjones",
-  //facebook: "https://www.facebook.com/Sebastian.pasta7",
-  //medium: "https://medium.com/@SebastianLaTempa",
   stackoverflow: "https://stackoverflow.com/users/10422806/Sebastian-LaTempa",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
 
