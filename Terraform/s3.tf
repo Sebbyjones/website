@@ -19,7 +19,7 @@ resource "aws_s3_bucket_website_configuration" "personal_site_config" {
 }
 
 resource "aws_s3_bucket_public_access_block" "public_access" {
-  bucket = aws_s3_bucket.portfolio_site.id
+  bucket = aws_s3_bucket.personal_site.id
 
   block_public_acls       = false
   block_public_policy     = false
@@ -28,7 +28,7 @@ resource "aws_s3_bucket_public_access_block" "public_access" {
 }
 
 resource "aws_s3_bucket_policy" "public_read" {
-  bucket = aws_s3_bucket.portfolio_site.id
+  bucket = aws_s3_bucket.personal_site.id
 
   policy = jsonencode({
     Version = "2012-10-17"
@@ -38,7 +38,7 @@ resource "aws_s3_bucket_policy" "public_read" {
         Effect    = "Allow"
         Principal = "*"
         Action    = "s3:GetObject"
-        Resource  = "${aws_s3_bucket.portfolio_site.arn}/*"
+        Resource  = "${aws_s3_bucket.personal_site.arn}/*"
       }
     ]
   })
