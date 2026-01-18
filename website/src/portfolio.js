@@ -117,7 +117,11 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Spring Framework",
-      fontAwesomeClassname: "fab fa-spring" // FA has fa-spring-boot, but close enough
+      fontAwesomeClassname: "fa-solid fa-leaf"
+    },
+    {
+      skillName: "Vert.x Framework",
+      fontAwesomeClassname: "fa-sharp fa-solid fa-x"
     }
   ],
   display: true // Set false to hide this section, defaults to true
