@@ -239,27 +239,38 @@ const openSource = {
 // Some big projects you have worked on
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "KEY ENTERPRISE PROJECTS DEMONSTRATING SCALABLE DEVOPS AND AI INTEGRATIONS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/statefarmlogo.png"),
+      projectName: "Patent-Pending CI/CD Pipeline",
+      projectDesc: "Pioneered revolutionary testing paradigm achieving 100% code coverage (unit, integration, mutation, chaos, load) with custom scripts for Jacoco, PIT, Chaos Monkey, and Snyk—reducing deployment risks and setting enterprise standards. Completely redesigned pipeline output to generate clear color coded report for developers per pipeline stage.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Learn More",
+          url: "https://www.statefarm.com/"
         }
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/statefarmlogo.png"),
+      projectName: "Generative AI Interaction Summarizer",
+      projectDesc: "Designed GUI via CloudFormation and harnessed AWS Bedrock/SageMaker for summarizing 4.8B+ interactions, providing actionable insights to optimize customer engagement and avert over-communication.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Learn More",
+          url: "https://www.statefarm.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/statefarmlogo.png"),
+      projectName: "Personalized Welcome Email Program",
+      projectDesc: "Led development of customer data aggregation API and State Farm’s first tailored onboarding emails, improving retention through consolidated enterprise data sources.",
+      footerLink: [
+        {
+          name: "Learn More",
+          url: "https://www.statefarm.com/"
         }
       ]
     }
