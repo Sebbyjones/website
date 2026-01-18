@@ -1,63 +1,55 @@
-# IAM User for GitHub Actions
-resource "aws_iam_user" "github_actions" {
-  name = "github-actions-deployer"
+# Pipeline user for CI/CD deployments
+resource "aws_iam_user" "pipeline" {
+  name = "pipeline-user"
 }
 
-# Access Key for GitHub Actions
-resource "aws_iam_access_key" "github_actions" {
-  user = aws_iam_user.github_actions.name
+# Access key for pipeline user
+resource "aws_iam_access_key" "pipeline" {
+  user = aws_iam_user.pipeline.name
 }
 
-# IAM Policy for S3 access
-resource "aws_iam_policy" "s3_deployment" {
-  name        = "github-actions-s3-deployment"
-  description = "Policy for GitHub Actions to deploy to S3"
+# Policy with all permissions needed for deployments
+resource "aws_iam_policy" "pipeline_policy" {
+  name        = "pipeline-deployment-policy"
+  description = "Policy for pipeline deployments - S3 and Terraform management"
 
   policy = jsonencode({
     Version = "2012-10-17"
     Statement = [
       {
-        Sid    = "S3BucketAccess"
+        Sid    = "S3FullAccess"
         Effect = "Allow"
         Action = [
-          "s3:GetObject",
-          "s3:PutObject",
-          "s3:DeleteObject",
-          "s3:ListBucket"
+          "s3:*"
         ]
-        Resource = [
-          aws_s3_bucket.portfolio_site.arn,
-          "${aws_s3_bucket.portfolio_site.arn}/*"
-        ]
+        Resource = "*"
       },
       {
-        Sid    = "CreateBucket"
+        Sid    = "CloudFrontAccess"
         Effect = "Allow"
         Action = [
-          "s3:CreateBucket",
-          "s3:GetBucketWebsite",
-          "s3:PutBucketWebsite"
+          "cloudfront:CreateInvalidation"
         ]
-        Resource = aws_s3_bucket.portfolio_site.arn
+        Resource = "*"
       }
     ]
   })
 }
 
-# Attach policy to user
-resource "aws_iam_user_policy_attachment" "github_actions_s3" {
-  user       = aws_iam_user.github_actions.name
-  policy_arn = aws_iam_policy.s3_deployment.arn
+# Attach policy to pipeline user
+resource "aws_iam_user_policy_attachment" "pipeline" {
+  user       = aws_iam_user.pipeline.name
+  policy_arn = aws_iam_policy.pipeline_policy.arn
 }
 
-# Output credentials (save these securely!)
-output "github_actions_access_key_id" {
-  value       = aws_iam_access_key.github_actions.id
-  description = "Access Key ID for GitHub Actions (add to GitHub secrets as AWS_ACCESS_KEY_ID)"
+# Output credentials
+output "pipeline_user_access_key_id" {
+  value       = aws_iam_access_key.pipeline.id
+  description = "Access Key ID for pipeline user"
 }
 
-output "github_actions_secret_access_key" {
-  value       = aws_iam_access_key.github_actions.secret
+output "pipeline_user_secret_access_key" {
+  value       = aws_iam_access_key.pipeline.secret
   sensitive   = true
-  description = "Secret Access Key for GitHub Actions (add to GitHub secrets as AWS_SECRET_ACCESS_KEY)"
+  description = "Secret Access Key for pipeline user"
 }
