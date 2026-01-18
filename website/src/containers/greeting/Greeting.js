@@ -1,5 +1,6 @@
 import React, {useContext} from "react";
 import {Fade} from "react-reveal";
+import emoji from "react-easy-emoji";
 import "./Greeting.scss";
 import landingPerson from "../../assets/lottie/landingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
@@ -19,12 +20,16 @@ export default function Greeting() {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
+              <img
+                src={greeting.avatar}
+                alt="Sebastian LaTempa"
+                className="profile-photo"
+              />
               <h1
                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
               >
                 {" "}
                 {greeting.title}{" "}
-                {/* Removed the wave emoji */}
               </h1>
               <p
                 className={
