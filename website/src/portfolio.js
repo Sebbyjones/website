@@ -26,7 +26,8 @@ const greeting = {
     "Senior DevOps Engineer with 15+ years architecting scalable, secure cloud infrastructures and CI/CD pipelines on AWS, Terraform, and more—delivering platforms handling 4.8B+ interactions annually while slashing costs by 30% and boosting efficiency."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1J9sIaPz834YgM6u-43gu7NYccvcH0IE4/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1J9sIaPz834YgM6u-43gu7NYccvcH0IE4/view?usp=sharing",
+  avatar: require("./assets/images/personalpicture.png"),
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -218,7 +219,8 @@ const workExperiences = {
         "Managed CUCM, CCE, and UCCE systems as a full administrator, configuring softphones, skill groups, mobility extensions, call recordings, and ICM scripting for dynamic prompts and flows.",
         "Troubleshot telephony issues.",
         "Administered Active Directory to create user accounts, security groups, and department-specific GPOs for precise permissions.",
-        "Oversaw Barracuda and Nagios backup solutions, and generated SQL reports to support operational reliability."
+        "Oversaw Barracuda and Nagios backup solutions, and generated SQL reports to support operational reliability.",
+        "Created custom images for over 500 workstations using WDS and MDT, streamlining deployment with pre-installed applications and default user profiles."
       ]
     },
     {
@@ -229,7 +231,9 @@ const workExperiences = {
       desc: "Provided on-site assistance for over 1,400 workstations across two locations–the only team member entrusted with dual-site responsibility.",
       descBullets: [
         "Consulted on client applications, implemented software/hardware updates to enhance functionality, and installed, configured, and maintained servers to meet customer needs.",
-        "Developed and deployed automation scripts that slashed ticket volume by 60% and boosted efficiency."
+        "Developed and deployed automation scripts that slashed ticket volume by 60% and boosted efficiency.",
+        "Responsible for product ramp in which I configured, imaged, and deployed 300 computers.",
+        "Reduced ticket volume by 60% through development and deployment of automation scripts, significantly enhancing operational efficiency."
       ]
     }
   ]
