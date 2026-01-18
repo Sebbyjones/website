@@ -23,7 +23,7 @@ const greeting = {
   username: "Sebastian LaTempa",
   title: "Hello, I'm Sebastian",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Senior DevOps Engineer with 15+ years architecting scalable, secure cloud infrastructures and CI/CD pipelines on AWS, Terraform, and more—delivering platforms handling 4.8B+ interactions annually while slashing costs by 30% and boosting efficiency."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1J9sIaPz834YgM6u-43gu7NYccvcH0IE4/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,13 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/Sebastianpasta",
-  linkedin: "https://www.linkedin.com/in/Sebastianpasta/",
-  gmail: "Sebastianpasta70@gmail.com",
-  gitlab: "https://gitlab.com/Sebastianpasta",
-  facebook: "https://www.facebook.com/Sebastian.pasta7",
-  medium: "https://medium.com/@Sebastianpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/Sebastian-pasta",
+  github: "https://github.com/Sebbyjones",
+  linkedin: "https://www.linkedin.com/in/SebastianLaTempa",
+  gmail: "SebastianLaTempa@gmail.com",
+  gitlab: "https://gitlab.com/Sebbyjones",
+  //facebook: "https://www.facebook.com/Sebastian.pasta7",
+  //medium: "https://medium.com/@SebastianLaTempa",
+  stackoverflow: "https://stackoverflow.com/users/10422806/Sebastian-LaTempa",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,17 +48,29 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I Do",
+  subTitle: "SENIOR DEVOPS ENGINEER ARCHITECTING SCALABLE, SECURE CLOUD INFRASTRUCTURE AND AUTOMATED PIPELINES",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Design and maintain enterprise-scale event-driven platforms on AWS, handling billions of interactions annually with services like Lambda, ECS, DynamoDB, API Gateway, and Athena"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Automate infrastructure provisioning using Terraform and IaC principles, integrating with tools like SCALR/TFE for state management and multi-service deployments to reduce errors by up to 80%"
+    ),
+    emoji(
+      "⚡ Build robust CI/CD pipelines with Git/GitHub/GitLab, incorporating comprehensive testing (unit, integration, chaos, load) and achieving 100% code coverage while enhancing system resilience"
+    ),
+    emoji(
+      "⚡ Leverage generative AI (AWS Bedrock/SageMaker) for data insights and implement security best practices with IAM, KMS, WAF, and Zero Trust models to ensure compliance and reliability"
+    ),
+    emoji(
+      "⚡ Optimize monitoring and networking with Splunk, Datadog, Dynatrace, and CloudWatch, alongside protocols like TCP/IP, DNS, and SSL/TLS for high-availability environments"
+    ),
+    emoji(
+      "⚡ Lead cross-functional teams in Agile/SRE methodologies to deliver cost-efficient solutions, slashing expenses by 30% and accelerating feature onboarding"
     )
   ],
+};
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -123,7 +135,7 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Harvard University",
@@ -153,16 +165,32 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Cloud Infrastructure & AWS (EC2, S3, Lambda, ECS, DynamoDB, API Gateway, Athena, SageMaker, Bedrock, etc.)",
+      progressPercentage: "95%" // High proficiency from architecting enterprise platforms at State Farm
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Infrastructure as Code (Terraform, CloudFormation, SCALR, TFE)",
+      progressPercentage: "90%" // Core tool for automation and provisioning in your roles
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Automation & CI/CD (Git, GitHub, GitLab, Docker, Containerization with ECS)",
+      progressPercentage: "90%" // Demonstrated in patent-pending pipelines and error reduction
+    },
+    {
+      Stack: "Programming Languages & Frameworks (Python, Java, JavaScript, Bash, C#, Shell, YAML/JSON, Vert.x, Spring Framework)",
+      progressPercentage: "85%" // Used across scripting, APIs, and backend development
+    },
+    {
+      Stack: "Security & Networking (IAM, KMS, WAF, TCP/IP, DNS, Zero Trust, SSL/TLS, VPN)",
+      progressPercentage: "85%" // Integrated in secure platforms and telephony management
+    },
+    {
+      Stack: "Monitoring & Observability (Splunk, Datadog, Dynatrace, CloudWatch)",
+      progressPercentage: "85%" // Applied in resilience testing and operational reliability
+    },
+    {
+      Stack: "Methodologies (Agile, Scrum, SRE, TDD, CI/CD)",
+      progressPercentage: "90%" // Proven leadership in cross-functional teams and standards-setting
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
