@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "personal_site" {
-  bucket = "personal-site"
+  bucket = "sebastian-latempa-personal-site"
 }
 
 resource "aws_s3_bucket_website_configuration" "personal_site_config" {
