@@ -23,7 +23,7 @@ const greeting = {
   username: "Sebastian LaTempa",
   title: "Hello, I'm Sebastian",
   subTitle: emoji(
-    "Senior DevOps Engineer with 15+ years architecting scalable, secure cloud infrastructures and CI/CD pipelines on AWS, Terraform, and more—delivering platforms handling 4.8B+ interactions annually while slashing costs by 30% and boosting efficiency."
+    "Senior DevOps Engineer with 15+ years architecting scalable, secure cloud infrastructures and CI/CD pipelines on AWS, Terraform, and more - delivering platforms handling 4.8B+ interactions annually while slashing costs by 30% and contiously boosting efficiency."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1J9sIaPz834YgM6u-43gu7NYccvcH0IE4/view?usp=sharing",
@@ -67,9 +67,6 @@ const skillsSection = {
       "⚡ Lead cross-functional teams in Agile/SRE methodologies to deliver cost-efficient solutions, slashing expenses by 30% and accelerating feature onboarding"
     )
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
 softwareSkills: [
   {
@@ -143,10 +140,6 @@ softwareSkills: [
 ],
 display: true // Set false to hide this section, defaults to true
 };
-
-
-
-// Your top 3 proficient stacks/tech experience
 
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section

@@ -19,17 +19,19 @@ export default function Greeting() {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <img
-                src={greeting.avatar}
-                alt="Sebastian LaTempa"
-                className="profile-photo"
-              />
-              <h1
-                className={isDark ? "dark-mode greeting-text" : "greeting-text"}
-              >
-                {" "}
-                {greeting.title}{" "}
-              </h1>
+              <div className="greeting-profile">
+                <img
+                  src={greeting.avatar}
+                  alt="Sebastian LaTempa"
+                  className="profile-photo"
+                />
+                <h1
+                  className={isDark ? "dark-mode greeting-text" : "greeting-text"}
+                >
+                  {" "}
+                  {greeting.title}{" "}
+                </h1>
+              </div>
               <p
                 className={
                   isDark

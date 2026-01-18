@@ -46,6 +46,7 @@
   font-size: 70px;
   line-height: 1.1;
   color: $textColor !important;
+  margin: 0; // Remove default margins for better alignment
 }
 
 .greeting-text-p {
@@ -67,6 +68,20 @@
 .greeting-image-div > * {  // Targets Lottie or img
   width: 100%;
   height: auto;
+}
+
+.greeting-profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; // Space below the profile row before subtitle
+}
+
+.profile-photo {
+  width: 80px; // Smaller size; adjust as needed (e.g., 60px for even smaller)
+  height: 80px;
+  border-radius: 50%; // Makes it circular
+  object-fit: cover; // Ensures the image fills the circle without distortion
+  margin-right: 20px; // Space between photo and title text
 }
 
 .wave-emoji {
@@ -128,6 +143,12 @@
   }
   .greeting-image-div {
     height: 256px;
+  }
+  .greeting-profile {
+    justify-content: center; // Center the profile row on mobile
+  }
+  .profile-photo {
+    margin-right: 10px; // Smaller margin on mobile
   }
 }
 
