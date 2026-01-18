@@ -70,61 +70,73 @@ const skillsSection = {
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "AWS",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "Terraform",
-      fontAwesomeClassname: "fas fa-cogs" // Generic for IaC/tools; no official Terraform icon in FA
-    },
-    {
-      skillName: "Docker",
-      fontAwesomeClassname: "fab fa-docker"
-    },
-    {
-      skillName: "Git",
-      fontAwesomeClassname: "fab fa-git-alt"
-    },
-    {
-      skillName: "Python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "Java",
-      fontAwesomeClassname: "fab fa-java"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "Bash",
-      fontAwesomeClassname: "fas fa-terminal" // For shell scripting
-    },
-    {
-      skillName: "SQL Database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "Splunk",
-      fontAwesomeClassname: "fab fa-searchengin" // Generic for monitoring; no official Splunk in FA
-    },
-    {
-      skillName: "Datadog",
-      fontAwesomeClassname: "fas fa-chart-line" // Generic for monitoring
-    },
-    {
-      skillName: "Spring Framework",
-      fontAwesomeClassname: "fas fa-leaf"
-    },
-    {
-      skillName: "Vert.x Framework",
-      fontAwesomeClassname: "fas fa-x"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+softwareSkills: [
+  {
+    skillName: "AWS",
+    fontAwesomeClassname: "fab fa-aws"
+  },
+  {
+    skillName: "Terraform",
+    fontAwesomeClassname: "fas fa-cogs" // Generic for IaC/tools; no official Terraform icon in FA
+  },
+  {
+    skillName: "Docker",
+    fontAwesomeClassname: "fab fa-docker"
+  },
+  {
+    skillName: "Git",
+    fontAwesomeClassname: "fab fa-git-alt"
+  },
+  {
+    skillName: "Python",
+    fontAwesomeClassname: "fab fa-python"
+  },
+  {
+    skillName: "Java",
+    fontAwesomeClassname: "fab fa-java"
+  },
+  {
+    skillName: "JavaScript",
+    fontAwesomeClassname: "fab fa-js"
+  },
+  {
+    skillName: "Bash",
+    fontAwesomeClassname: "fas fa-terminal" // For shell scripting
+  },
+  {
+    skillName: "SQL Database",
+    fontAwesomeClassname: "fas fa-database"
+  },
+  {
+    skillName: "Splunk",
+    fontAwesomeClassname: "fab fa-searchengin" // Generic for monitoring; no official Splunk in FA
+  },
+  {
+    skillName: "Datadog",
+    fontAwesomeClassname: "fas fa-chart-line" // Generic for monitoring
+  },
+  {
+    skillName: "Spring Framework",
+    fontAwesomeClassname: "fas fa-leaf"
+  },
+  {
+    skillName: "Vert.x Framework",
+    fontAwesomeClassname: "fas fa-server" // Generic server icon, as no official Vert.x in FA
+  },
+  {
+    skillName: "DynamoDB",
+    fontAwesomeClassname: "fas fa-database" // Generic database icon, or use "fab fa-aws" if preferred
+  },
+  {
+    skillName: "Bedrock",
+    fontAwesomeClassname: "fas fa-robot" // Generic AI/robot icon for AWS Bedrock
+  },
+  {
+    skillName: "YAML/JSON",
+    fontAwesomeClassname: "fas fa-file-code" // Generic code/file icon for config languages
+  }
+],
+display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
