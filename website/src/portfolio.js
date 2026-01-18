@@ -190,7 +190,7 @@ const workExperiences = {
     {
       role: "Lead Software Engineer",
       company: "State Farm",
-      companylogo: require("./assets/images/statefarmlogo.jpg"),
+      companylogo: require("./assets/images/statefarmlogo.png"),
       date: "2016 – Present",
       desc: "Architected and maintained enterprise-wide event-driven API platform supporting 45+ business units, processing 4.8B+ customer interactions yearly.",
       descBullets: [
