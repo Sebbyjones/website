@@ -45,11 +45,18 @@
   margin-top: 4rem;
 }
 
-.contact-image-div > img {
-  max-width: 100%;
+.contact-image-div {
+  max-width: 300px; // Adjust this value as needed for smaller size (e.g., 250px for even smaller)
   height: auto;
-  margin-left: 1.5rem;
+  margin-left: auto; // Centers it horizontally within its flex space; remove if you want it left-aligned
+  margin-right: auto;
   margin-top: -4rem;
+}
+
+.contact-image-div > img,
+.contact-image-div > * { // Targets both static img and Lottie (which likely renders a div/svg)
+  width: 100%;
+  height: auto;
 }
 
 /* Media Query */
