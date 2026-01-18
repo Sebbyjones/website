@@ -164,11 +164,11 @@ const techStack = {
     },
     {
       Stack: "Programming Languages & Frameworks (Python, Java, JavaScript, Bash, C#, Shell, YAML/JSON, Vert.x, Spring Framework)",
-      progressPercentage: "85%" // Used across scripting, APIs, and backend development
+      progressPercentage: "91%" // Used across scripting, APIs, and backend development
     },
     {
       Stack: "Security & Networking (IAM, KMS, WAF, TCP/IP, DNS, Zero Trust, SSL/TLS, VPN)",
-      progressPercentage: "85%" // Integrated in secure platforms and telephony management
+      progressPercentage: "88%" // Integrated in secure platforms and telephony management
     },
     {
       Stack: "Monitoring & Observability (Splunk, Datadog, Dynatrace, CloudWatch)",
@@ -176,7 +176,7 @@ const techStack = {
     },
     {
       Stack: "Methodologies (Agile, Scrum, SRE, TDD, CI/CD)",
-      progressPercentage: "90%" // Proven leadership in cross-functional teams and standards-setting
+      progressPercentage: "93%" // Proven leadership in cross-functional teams and standards-setting
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -185,7 +185,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
       role: "Lead Software Engineer",
@@ -209,7 +209,7 @@ const workExperiences = {
     {
       role: "System Administrator",
       company: "Origami Owl",
-      companylogo: require("./assets/images/origamiOwlLogo.png"),  // Replace with actual logo path if available
+      companylogo: require("./assets/images/origamiOwlLogo.png"),
       date: "2014 – 2016",
       desc: "Automated departmental workflows using PowerShell scripts, WDS, and MDT to create comprehensive Windows images with pre-installed software and default profiles.",
       descBullets: [
@@ -224,7 +224,7 @@ const workExperiences = {
     {
       role: "Desktop Support",
       company: "Stream Global Services",
-      companylogo: require("./assets/images/streamGlobalLogo.jpg"),  // Replace with actual logo path if available
+      companylogo: require("./assets/images/streamGlobalLogo.jpg"),
       date: "2009 – 2014",
       desc: "Provided on-site assistance for over 1,400 workstations across two locations–the only team member entrusted with dual-site responsibility.",
       descBullets: [
